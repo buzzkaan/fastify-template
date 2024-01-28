@@ -15,7 +15,9 @@ Follow these steps to set up and run the template on your local machine:
 1. **Dependencies:**
    ```bash
     yarn install
-   yarn dev
+2. **Project Run**
+   ```bash
+    yarn dev
 
 ## Configuration
 
