@@ -7,18 +7,23 @@ This repository provides a development template for a backend using Fastify, Nod
 Follow these steps to set up and run the template on your local machine:
 
 1. **Clone the Repository:**
+   
    ```bash
    git clone https://github.com/your-username/your-repo.git
 
-1. **Change Directory:**
+2. **Change Directory:**
+   
    ```bash
    cd your-repo
    
 # Install Dependencies:
+
 1. **Dependencies:**
+   
    ```bash
     yarn install
 2. **Project Run**
+   
    ```bash
     yarn dev
 
