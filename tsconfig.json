@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": ".",
+    "strict": false,
+    "paths": {
+      "data": ["./data", "./data/index.ts"],
+      "endpoints": ["./endpoints", "./endpoints/index.ts"],
+      "interceptors": ["./interceptors", "./interceptors/index.ts"],
+      "interceptors/*": ["./interceptors/*", "./interceptors/*/index.ts"],
+      "operations": ["./operations", "./operations/index.ts"],
+    }
+  }
+}

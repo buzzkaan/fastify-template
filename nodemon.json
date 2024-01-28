@@ -1,0 +1,13 @@
+{
+  "watch": [
+    "./endpoints",
+    "./operations",
+    "./interceptors",
+    "./data"
+  ],
+  "ext": "ts,json",
+  "ignore": [
+    "node_modules/**"
+  ],
+  "exec": "ts-node -r tsconfig-paths/register ./igniteServer.ts"
+}

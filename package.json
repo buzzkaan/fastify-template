@@ -1,0 +1,40 @@
+{
+  "name": "backend-ts",
+  "version": "1.0.0",
+  "main": "build/igniteServer.js",
+  "repository": "",
+  "author": "Kaan Demir <https://github.com/buzzkaan>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "start": "node --watch build/igniteServer.js",
+    "dev": "NODE_ENV=development nodemon"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.1",
+    "@fastify/multipart": "^7.7.3",
+    "@fastify/swagger": "^8.10.0",
+    "@fastify/swagger-ui": "^1.9.3",
+    "fastify": "^4.23.2",
+    "fastify-plugin": "^4.5.1",
+    "pg-promise": "^11.5.4"
+  },
+  "devDependencies": {
+    "@fastify/type-provider-json-schema-to-ts": "^2.2.2",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.6.1",
+    "concurrently": "^8.2.1",
+    "eslint-config-standard-typescript-prettier": "^6.0.0",
+    "json-schema-to-ts": "^2.9.2",
+    "json-schema-to-typescript": "^13.1.1",
+    "node-ssh-forward": "^0.7.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.7",
+    "tsc-watch": "^6.0.4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
