@@ -11,7 +11,11 @@ Follow these steps to set up and run the template on your local machine:
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
 
-
+# Install Dependencies:
+1. **Dependencies:**
+   ```bash
+    yarn install
+   yarn dev
 
 ## Configuration
 
