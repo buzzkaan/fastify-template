@@ -16,7 +16,7 @@ Follow these steps to set up and run the template on your local machine:
    ```bash
    cd your-repo
    
-# Install Dependencies:
+## Install Dependencies:
 
 1. **Dependencies:**
    
