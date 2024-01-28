@@ -9,7 +9,6 @@ Follow these steps to set up and run the template on your local machine:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/your-repo.git
-   cd your-repo
 
 1. **Change Directory:**
    ```bash
